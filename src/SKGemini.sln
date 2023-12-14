@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34407.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connectors.AI.Gemini", "Connectors.AI.PaLM\Connectors.AI.Gemini.csproj", "{72B7B09F-E477-42BB-89B8-B63548DC3CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatWithGemini", "ChatWithGemini\ChatWithGemini.csproj", "{0430115D-9392-4579-99A4-185FCA82A82A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B7B09F-E477-42BB-89B8-B63548DC3CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B7B09F-E477-42BB-89B8-B63548DC3CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B7B09F-E477-42BB-89B8-B63548DC3CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B7B09F-E477-42BB-89B8-B63548DC3CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0430115D-9392-4579-99A4-185FCA82A82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0430115D-9392-4579-99A4-185FCA82A82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0430115D-9392-4579-99A4-185FCA82A82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0430115D-9392-4579-99A4-185FCA82A82A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C3A7696-E5AC-4C78-A18E-235DFFBC6829}
+	EndGlobalSection
+EndGlobal
